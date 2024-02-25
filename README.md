@@ -12,6 +12,8 @@ You will also need to **Bypass** the Execution Policy<br>
 Testing you main command locally is something useful if something goes wrong you can isolate the issue quickly.<br>
 ![powershell-step1](https://github.com/danielurra/PowerShell-recursive-folder-creation-in-network-drive/assets/51704179/27abee11-cf87-4c91-9e90-dcddf32a2d73)<br>
 ## Grab the code
+As you can see the code below is a simple version that only focus in the creation of the folders by using the data<br>
+inside a `CSV` file, an enhanced version could for example test if the folder already exist.<br>
 ```powershell
 Clear
 $CSV = Import-Csv -Path "C:\Users\user\Documents\data.csv"
@@ -25,3 +27,5 @@ ForEach ($Row in $CSV) {
     write-Host " $i Folders have been created.." -ForegroundColor Green -BackgroundColor DarkGreen
 }
 ```
+![powershell-step1](https://github.com/danielurra/PowerShell-recursive-folder-creation-in-network-drive/assets/51704179/3b36212f-8fb7-43a4-b88a-7ff5fa52e4fa)<br>
+
