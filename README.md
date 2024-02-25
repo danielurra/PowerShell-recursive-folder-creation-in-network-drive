@@ -1,7 +1,7 @@
 # PowerShell recursive folder creation in network drive
 Using a PowerShell script to the recursive creation of folders in a remote network drive
 ## Declare the Network drive
-Use the `Net` command to declare both the **Network Drive** letter (in this case T) and the **Path**<br>
+Use the `Net` command to declare both the **Network Drive** letter (in this case T) and also its **Path**<br>
 ```powershell
 net use T: \\192.168.1.122\shared_folder
 ```
