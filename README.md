@@ -30,4 +30,6 @@ ForEach ($Row in $CSV) {
 }
 ```
 ![powershell-step1](https://github.com/danielurra/PowerShell-recursive-folder-creation-in-network-drive/assets/51704179/3b36212f-8fb7-43a4-b88a-7ff5fa52e4fa)<br>
+## The CSV file
+The names of the folders you want to recursively create must be under a sigle column inside a `CSV` (Comma Separated Values) file.<br>
 
