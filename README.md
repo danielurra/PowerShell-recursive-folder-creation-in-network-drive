@@ -30,7 +30,7 @@ ForEach ($Row in $CSV) {
     write-Host " $i Folders have been created.." -ForegroundColor Green -BackgroundColor DarkGreen
 }
 ```
-![powershell-step1](https://github.com/danielurra/PowerShell-recursive-folder-creation-in-network-drive/assets/51704179/3b36212f-8fb7-43a4-b88a-7ff5fa52e4fa)<br>
+![the-code](https://github.com/danielurra/PowerShell-recursive-folder-creation-in-network-drive/assets/51704179/7b63eec2-cd1a-4cf8-8887-a2adc6def5d0)<br>
 ## The CSV file
 The names of the folders you want to recursively create must be under a sigle column inside a `CSV` (Comma Separated Values) file.<br>
 ![csv](https://github.com/danielurra/PowerShell-recursive-folder-creation-in-network-drive/assets/51704179/d846eed5-831e-49bd-95a2-e3b9f12c88a4)<br>
