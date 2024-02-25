@@ -1,5 +1,7 @@
 # PowerShell recursive folder creation in network drive
 Using a PowerShell script for the recursive creation of folders in a remote network drive
+## Run PowerShell ISE as an administrator
+![run-as-admin](https://github.com/danielurra/PowerShell-recursive-folder-creation-in-network-drive/assets/51704179/332e8ac9-bec7-46f9-a140-c5b23e7d8830)<br>
 ## Declare the Network drive
 Use the `Net` command to declare both the **Network Drive** letter (in this case T) and also its **Path**<br>
 ```powershell
