@@ -1,4 +1,4 @@
-# PowerShell-recursive-folder-creation-in-network-drive
+# PowerShell recursive folder creation in network drive
 Using a PowerShell script recursive folder creation in network drive
 ## Declare the Network drive
 Use the `Net` command to declare both the **Network Drive** letter (in this case T) and the **Path**<br>
