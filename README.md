@@ -14,7 +14,7 @@ Be sure that your working directory is not **System32** because it has some rest
 * Testing you main command locally is something useful if something goes wrong you can isolate the issue quickly.<br>
 
 ![powershell-step1](https://github.com/danielurra/PowerShell-recursive-folder-creation-in-network-drive/assets/51704179/27abee11-cf87-4c91-9e90-dcddf32a2d73)<br>
-## The code, simplest version
+## Code, the simplest version
 As you can see the code below is a simple version that only focus in the creation of the folders by using the data<br>
 inside a `CSV` file, an enhanced version could for example test if the folder already exist.<br>
 ```powershell
